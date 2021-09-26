@@ -180,9 +180,9 @@ li {
 }
 
 
-@media (max-width: 449px) {
+@media (max-width: 576px) {
     h1 {
-
+        font-size: 30px;
         margin-left: 40px;
         margin-right: 40px;
     }
@@ -196,17 +196,19 @@ li {
     .line {
         justify-content: center;
     }
-}
 
-@media (max-width: 565px) {
     .container {
         margin-left: 20px;
         margin-right: 20px;
     }
-}
 
-@media (max-width: 425px) {
     .but {
         margin-top: 1rem;
+    }
+}
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 24.5px;
     }
 }
